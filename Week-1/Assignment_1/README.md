@@ -19,7 +19,7 @@ Ans1 . When user enters an URL in browser, browser looks up for IP address for t
 
 a.The main function is to retrieve information from the World Wide Web and making it available for users in more interactive ways as user wants
 
-b. High Level Compents of Browers 
+b. High Level Components of Browsers 
 User Interface => It is an environment allowing users to use certain features like search bar, refresh button, menu, bookmarks, etc.
 Browser Engine => It monitors the rendition engine while manipulating the inputs coming from multiple user interfaces.
 Networking => The protocol provides an URL and manages all sorts of safety, privacy and communication.
