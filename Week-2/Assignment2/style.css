@@ -1,51 +1,59 @@
-.main{
-    position: relative;
-    align-items: center;
-    left:30rem;
-}
-.main div{
+.main {
     display: flex;
-    flex-direction: row;
+    width: 200px;
+    justify-content: center;
+    margin-left: 35rem;
 }
- h1{
-    top: 4rem;
+
+.main:hover .red,
+.main:hover .green {
+    transform: rotate(90deg);
+}
+
+.main:hover .yellow,
+.main:hover .blue {
+    transform: rotate(-90deg);
+}
+
+.main h1 {
     position: absolute;
-    left: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+}
 
+.main .first,
+.main .second {
+    z-index: 2;
 }
-.main:hover .red{
-transform: rotateY(90deg);
-}
-.main:hover .blue{
-    transform: rotateY(90deg);
-}
-.main:hover  .yellow{
-    transform: rotateX(90deg);
-}
-.main:hover .green{
-    transform: rotateX(90deg);
-}
-.red{
-    height: 100px;
+
+.main .box {
     width: 100px;
+    height: 100px;
+}
+
+.main .red {
     background-color: red;
-   animation-name: turnleft;
+    transform-origin: left top;
+    transition: transform 1s;
 }
 
-.blue{
-    height: 100px;
-    width: 100px;
-    background-color: blue;
-}
-.yellow{
-    height: 100px;
-    width: 100px;
+.main .yellow {
     background-color: yellow;
-}
-.green{
-    height: 100px;
-    width: 100px;
-    background-color: green;
-    
+    transform-origin: right top;
+    transition: transform 1s;
 }
 
+.main .blue {
+    background-color: blue;
+    transform-origin: left bottom;
+    transition: transform 1s;
+}
+
+.main .green {
+    background-color: green;
+    transform-origin: right bottom;
+    transition: transform 1s;
+}
