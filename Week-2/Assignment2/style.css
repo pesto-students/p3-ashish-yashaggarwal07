@@ -1,0 +1,51 @@
+.main{
+    position: relative;
+    align-items: center;
+    left:30rem;
+}
+.main div{
+    display: flex;
+    flex-direction: row;
+}
+ h1{
+    top: 4rem;
+    position: absolute;
+    left: 5rem;
+
+}
+.main:hover .red{
+transform: rotateY(90deg);
+}
+.main:hover .blue{
+    transform: rotateY(90deg);
+}
+.main:hover  .yellow{
+    transform: rotateX(90deg);
+}
+.main:hover .green{
+    transform: rotateX(90deg);
+}
+.red{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+   animation-name: turnleft;
+}
+
+.blue{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+.yellow{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+}
+.green{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    
+}
+
