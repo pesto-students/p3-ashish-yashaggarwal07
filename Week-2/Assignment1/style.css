@@ -25,3 +25,32 @@ hr{
     height: 1px;
     background-image: linear-gradient(to right,rgba(0,0,0,0),rgba(0,0,0,.75),rgba(0,0,0,0))
 }
+
+@media screen and (max-width: 480px) {
+    .content {
+        display: block;
+    }
+    header h1{
+        margin-left: 0em;
+    }
+    body{
+        margin: 30px;
+    }
+    img{
+        width:300px
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .content {
+        display: block;
+    }
+    header h1{
+        margin-left: 0em;
+    }
+    body{
+        margin: 30px;
+    }
+    img{
+        width:300px
+    }
+  }
