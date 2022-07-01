@@ -24,8 +24,7 @@
     height: 200px;
 }
 
-.main .first,
-.main .second {
+.main .first{
     z-index: 2;
 }
 
