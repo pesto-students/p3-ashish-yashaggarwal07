@@ -1,0 +1,58 @@
+.main {
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    margin-left: 35rem;
+}
+
+.main:hover .red,
+.main:hover .green {
+    transform: rotate(90deg);
+}
+
+.main:hover .yellow,
+.main:hover .blue {
+    transform: rotate(-90deg);
+}
+
+.main h1 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+}
+
+.main .first{
+    z-index: 2;
+}
+
+.main .box {
+    width: 100px;
+    height: 100px;
+}
+
+.main .red {
+    background-color: red;
+    transform-origin: left top;
+    transition: transform 1s;
+}
+
+.main .yellow {
+    background-color: yellow;
+    transform-origin: right top;
+    transition: transform 1s;
+}
+
+.main .blue {
+    background-color: blue;
+    transform-origin: left bottom;
+    transition: transform 1s;
+}
+
+.main .green {
+    background-color: green;
+    transform-origin: right bottom;
+    transition: transform 1s;
+}
