@@ -27,4 +27,5 @@ var threeSumClosest = function (nums, target) {
         }
         i++;
     }
+    return sum;
 }
