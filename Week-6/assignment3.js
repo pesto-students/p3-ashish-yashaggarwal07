@@ -1,5 +1,5 @@
 // sort 0 1 2 
-var sortfunction = function(arr){
+let arr =[0,2,1,2,0]
     let nextzero = 0;
     let nextTwo = arr.length -1;
     let i;
@@ -19,4 +19,3 @@ var sortfunction = function(arr){
             i++;
         }
     }
-}
