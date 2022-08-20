@@ -1,5 +1,5 @@
 // sort 0 1 2 
-let arr =[0,2,1,2,0]
+function sortZerosOnes(arr){
     let nextzero = 0;
     let nextTwo = arr.length -1;
     let i;
@@ -19,3 +19,7 @@ let arr =[0,2,1,2,0]
             i++;
         }
     }
+    return arr
+}
+let arr =[0,2,1,2,0]
+const output = sortZerosOnes(arr);

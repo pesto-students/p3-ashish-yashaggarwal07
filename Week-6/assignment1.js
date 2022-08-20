@@ -16,7 +16,7 @@ var maxSubArray = function (nums) {
 
 // Kadanes Algo 
 
-var maxSubArray = function (nums) {s
+var maxSubArray = function (nums) {
     let maxSum = nums[0];
     let currentSum = nums[0];
     for (let i = 0; i < nums.length; i++) {
