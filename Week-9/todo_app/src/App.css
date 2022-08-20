@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+  margin-top: 5rem;
+}
+header{
+  font-size: 18px;
+  margin-bottom: 1rem;
+}
+input{
+  margin-top: 10px;
+  width: 75%;
+  height: 1.2rem;
+  background-color: #948ef1;
+  border: 1px solid black;
+}
+
+.addButton{
+  background: transparent;
+  color: white;
+  border: 0px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.container{
+  background-color: #36435a;
+    width: 400px;
+    height: 600px;
+    margin-left: 30rem;
+}
+
+.line-through{
+  text-decoration: line-through;
+}
+.todolist {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  background-color: blueviolet;
+  border: 1px solid black;
+  border-radius: 27px;
+  margin-top: 1rem;
+  color: white;
+}
